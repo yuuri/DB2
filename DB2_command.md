@@ -73,3 +73,54 @@ db2 get instance
 
 
 如果需要将数据库创建到别的实例上，则参考前面实例启动/切换的内容先就行实例切换。
+
+
+
+
+
+操作命令
+
+1.查看当前所有的数据库
+
+```
+db2 list db directory  
+```
+
+![1557456816068.png](https://i.loli.net/2019/05/10/5cd4ebd1324a4.png)
+
+2.连接到指定数据库
+
+```
+db2 connect  to (数据库名)
+db2 connect to sample
+```
+
+![1557456914003.png](https://i.loli.net/2019/05/10/5cd4ebd13c26b.png)
+
+3.查看当前所有的连接
+
+```
+db2 list application
+```
+
+![1557456990741.png](https://i.loli.net/2019/05/10/5cd4ebd13b6d1.png)
+
+4.查看数据库中的表
+
+```
+db2 list tables for all
+db2 list tables (查看所有非系统表)
+```
+
+![1557457172679.png](https://i.loli.net/2019/05/10/5cd4ebd1465c3.png)
+
+5.查看表结构
+
+```
+db2 description table (表名)
+```
+
+![1557457357195.png](https://i.loli.net/2019/05/10/5cd4ebd128a0e.png)
+
+
+
